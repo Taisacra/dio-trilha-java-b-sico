@@ -1,4 +1,4 @@
-package set;
+package set.operacoesBasicasSet;
 
 public class Convidados {
     private String nome;
