@@ -1,4 +1,4 @@
-package com;
+package com.taina;
 
 public class Conta {
     private String numeroConta;
