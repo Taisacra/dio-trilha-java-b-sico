@@ -12,7 +12,7 @@ import org.junit.jupiter.api.TestMethodOrder;
 //@TestMethodOrder(MethodOrderer.MethodName.class) Ele válida o nome do metodo por ordem alfabética 
 //@TestMethodOrder(MethodOrderer.Random.class) Quero que execute aleatóriamente
 //@TestMethodOrder(MethodOrderer.DisplayName.class) Nomeia o teste de alguma forma e executa na ordem nomeada: Usa o @DisplayName("name") acima do @Test
-@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class) // Ordena por ordem numerica passado pelo @Order() acima do @Test
 public class EscolhendoAOrdemTest {
     
 
